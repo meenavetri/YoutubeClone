@@ -1,0 +1,25 @@
+.recommended{
+    flex-basis: 30%;
+}
+.sidevideo-list{
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.sidevideo-list img{
+    flex-basis: 49%;
+    width: 50%;
+}
+.vid-info{
+    flex-basis: 49%;
+}
+.vid-info h4{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+@media (max-width:900px) {
+    .recommended{
+        flex-basis: 100%;
+    }
+}
